@@ -1,0 +1,214 @@
+<mxfile host="65bd71144e">
+    <diagram id="HWWVNsICRqY7f6XH9xu8" name="Page-1">
+        <mxGraphModel dx="986" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="32" value="updateDecimalButtonState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3FF66;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="270" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="firstNumber&lt;div&gt;empty&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#33FF33;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="secondNumber&lt;div&gt;empty&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="operator&lt;br&gt;null" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66FF;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="justEvaluated&lt;div&gt;false&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="210" width="240" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="expessionLine.textContent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="230" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="resultLine.textContent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="290.5" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="decimalButton&lt;div&gt;const&amp;nbsp;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="1380" y="150" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="1&amp;nbsp;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;data-value=&quot;1&quot;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="2390" y="109.5" width="101" height="101" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="+ - * / %" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="150" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="=" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="160" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="160" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="backspace" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="160" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="function add()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="255" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="function subtract()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="255" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="function multiply()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="function divide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="function percent()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="function operate(currentOperator, a,b)&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;switch case&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="510" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="case (&quot;=&quot;) {&lt;br&gt;return add)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="renderDisplay(expressionLine, resultLine)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="130" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="function renderFromState( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="950" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="{firstNumber}&lt;div&gt;{operator}&lt;/div&gt;&lt;div&gt;{second Number}&lt;/div&gt;&lt;div&gt;=&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="current value =&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="return" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="510" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="operator = null ?&lt;br&gt;firstNumber || 0&lt;div&gt;: secondNumber || 0|&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="expressionText" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="if (!decimaButton)&lt;br&gt;return;l" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1310" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="activeNumber =&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="operator = null ?&lt;br&gt;firstNumber || 0&lt;div&gt;: secondNumber || 0|&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="decimalButton.disabled = activeNumber.includes(&quot;.&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1620" y="440" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="function appendDigit (digit)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2350" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="if( justEvalutated &amp;amp;&amp;amp; operator === null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2200" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="firstNumber = digit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2170" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="secondNumber = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2330" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="justEvaluated = false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2170" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="function renderFromState( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="2160" y="600" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="updateDecimalButtonState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3FF66;" vertex="1" parent="1">
+                    <mxGeometry x="2170" y="670" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2170" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="if operator === null&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2700" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="firstNumber +=&amp;nbsp; digit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2700" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="else secondNumber += digit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2710" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="function appendDecimal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="1350" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="if( justEvalutated &amp;amp;&amp;amp; operator === null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="630" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="firstNumber = &quot;0.&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="secondNumber = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="770" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="justEvaluated = false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="860" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="updateDecimalButtonState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3FF66;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="1020" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="if operator === null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1670" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="if firstNumber.includes(&quot;.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1570" y="720" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1570" y="790" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="if firstNumber === &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1780" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="firstNumber = &quot;0&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1780" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="firstNumber += &quot;.&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1780" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="function renderFromState( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="1755" y="960" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="function renderFromState( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="2080" y="980" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="updateDecimalButtonState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3FF66;" vertex="1" parent="1">
+                    <mxGeometry x="1755" y="1040" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="1090" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1750" y="1110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="if secondNumber.includes(&quot;.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1550" y="1220" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1550" y="1280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="if secondNumber === &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1785" y="1210" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="secondNumber = &quot;0&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1785" y="1290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="secondNumber += &quot;.&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1785" y="1360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="function renderFromState( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="1785" y="1440" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="updateDecimalButtonState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3FF66;" vertex="1" parent="1">
+                    <mxGeometry x="1785" y="1520" width="160" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
